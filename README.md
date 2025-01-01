@@ -18,4 +18,6 @@ Number of rows from file: 30000.
 Duplicate: 111 rows.
 Number of rows in SQL table after running the program: 29889
 
+"Describe in a few sentences what you would change if you knew it would be used for a 10GB CSV input file."
+
 If I were processing a 10GB CSV file with this application, I would make several optimizations to handle the large data set efficiently. I would modify the Load function to write data to the database in smaller chunks, such as 10,000 rows at a time, to reduce memory usage and improve performance. In addition, I would introduce parallel processing to break the data into chunks and process them simultaneously, taking full advantage of multi-core processors to speed up the operation.
