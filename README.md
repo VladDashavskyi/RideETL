@@ -12,3 +12,8 @@ Newtonsoft.Json for JSON serialization.
 
 # Input CSV File
 Place your input CSV file (sample-cab-data.csv) in the in directory relative to the executable. Ensure it has the following columns:
+
+# Comments
+Number of rows from file: 30000.
+Duplicate: 111 rows.
+Number of rows in SQL table after running the program: 29889
